@@ -193,25 +193,14 @@ a {
   --9: (var(--n) - 9)*(var(--n) - 9);
 }
 
-/*.d:before {
-  --t:rgb(
-    clamp(30,var(--1)*var(--4)*999,250)
-    clamp(30,var(--1)*var(--4)*999,250)
-    30);
-  --r:rgb(
-    clamp(30,var(--5)*var(--6)*999,250)
-    clamp(30,var(--5)*var(--6)*999,250)
-    30);
-  --b:rgb(
-    clamp(30,var(--n)*var(--1)*var(--7)*999,250)
-    clamp(30,var(--n)*var(--1)*var(--7)*999,250)
-    30);
-  --l:rgb(
-    clamp(30,var(--1)*var(--2)*var(--3)*var(--7)*999,250)
-    clamp(30,var(--1)*var(--2)*var(--3)*var(--7)*999,250)
-    30);
+.d:before {
+  --t: rgb(clamp(30, var(--1)*var(--4)*999, 250) clamp(30, var(--1)*var(--4)*999, 250) 30);
+  --r: rgb(clamp(30, var(--5)*var(--6)*999, 250) clamp(30, var(--5)*var(--6)*999, 250) 30);
+  --b: rgb(clamp(30, var(--n)*var(--1)*var(--7)*999, 250) clamp(30, var(--n)*var(--1)*var(--7)*999, 250) 30);
+  --l: rgb(clamp(30, var(--1)*var(--2)*var(--3)*var(--7)*999, 250) clamp(30, var(--1)*var(--2)*var(--3)*var(--7)*999, 250) 30);
 }
-.d:after {
+
+/*.d:after {
   --r:rgb(
     clamp(30,var(--2)*999,250)
     clamp(30,var(--2)*999,250)

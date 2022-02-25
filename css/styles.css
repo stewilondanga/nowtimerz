@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-/*.share__icon {
+.share__icon {
   width: 32px;
   height: 32px;
   fill: #fff;
@@ -29,7 +29,7 @@ a {
   margin-right: 3px;
 }
 
-.share__icon:last-of-type {
+/*.share__icon:last-of-type {
   margin-right: 0px;
 }
 

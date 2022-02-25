@@ -327,10 +327,11 @@ a {
   animation-play-state: paused;
 }
 
-/*#go:checked ~ .timer .d {
-  animation-play-state:running;
+#go:checked~.timer .d {
+  animation-play-state: running;
 }
-#go:checked ~ .timer {
+
+/*#go:checked ~ .timer {
   filter:hue-rotate(45deg);
 }
 

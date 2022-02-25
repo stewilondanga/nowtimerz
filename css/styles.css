@@ -145,13 +145,13 @@ a {
   initial-value: #000;
 }
 
-/*@property --l{
+@property --l {
   syntax: '<color>';
   inherits: true;
   initial-value: #000;
 }
 
-.d {
+/*.d {
   width: 77px; /* size */
 /*  display: inline-grid;
   aspect-ratio: .55;

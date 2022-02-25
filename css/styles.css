@@ -323,10 +323,11 @@ a {
   display: none;
 }
 
-/*#go ~ .timer .d {
-  animation-play-state:paused;
+#go~.timer .d {
+  animation-play-state: paused;
 }
-#go:checked ~ .timer .d {
+
+/*#go:checked ~ .timer .d {
   animation-play-state:running;
 }
 #go:checked ~ .timer {

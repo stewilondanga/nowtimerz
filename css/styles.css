@@ -117,11 +117,11 @@ a {
   transition-delay: 0.3s;
 }
 
-/*.share-button:hover .share__link:nth-of-type(4) {
+.share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
 }
 
-@property --n{
+/*@property --n{
   syntax: '<integer>';
   inherits: true;
   initial-value: 0;

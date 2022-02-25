@@ -176,11 +176,12 @@ a {
   transition: --t .45s, --l .45s, --b .45s, --r .45s;
 }
 
-/*.d:after {
+.d:after {
   margin-top: -20%;
   --t: #0000;
 }
-.d {
+
+/*.d {
   --1:(var(--n) - 1)*(var(--n) - 1);
   --2:(var(--n) - 2)*(var(--n) - 2);
   --3:(var(--n) - 3)*(var(--n) - 3);

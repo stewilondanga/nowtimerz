@@ -214,8 +214,12 @@ a {
   animation: d9 600s linear infinite
 }
 
-/*.timer .d:nth-child(3) {animation:d6 60s linear infinite;grid-column:4}
-.timer .d:nth-child(4) {animation:d9 10s linear infinite}
+.timer .d:nth-child(3) {
+  animation: d6 60s linear infinite;
+  grid-column: 4
+}
+
+/*.timer .d:nth-child(4) {animation:d9 10s linear infinite}
 @keyframes d9 {
   0%,
   9.95%{--n:0}

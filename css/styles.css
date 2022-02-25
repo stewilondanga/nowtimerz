@@ -206,8 +206,11 @@ a {
   --l: rgb(clamp(30, var(--1)*var(--3)*var(--4)*var(--5)*var(--7)*var(--9)*999, 250) clamp(30, var(--1)*var(--3)*var(--4)*var(--5)*var(--7)*var(--9)*999, 250) 30);
 }
 
-/*.timer .d:nth-child(1) {animation:d6 3600s linear infinite}
-.timer .d:nth-child(2) {animation:d9 600s linear infinite}
+.timer .d:nth-child(1) {
+  animation: d6 3600s linear infinite
+}
+
+/*.timer .d:nth-child(2) {animation:d9 600s linear infinite}
 .timer .d:nth-child(3) {animation:d6 60s linear infinite;grid-column:4}
 .timer .d:nth-child(4) {animation:d9 10s linear infinite}
 @keyframes d9 {

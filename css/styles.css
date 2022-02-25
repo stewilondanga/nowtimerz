@@ -158,24 +158,25 @@ a {
   aspect-ratio: .55;
 }
 
-/*.d:before,
+.d:before,
 .d:after {
   content: "";
   padding: 20%;
   background:
-    conic-gradient(from -45deg at 50% 45%,var(--t) 90deg,#0000 0),
-    conic-gradient(from  45deg at 55% 50%,var(--r) 90deg,#0000 0),
-    conic-gradient(from 135deg at 50% 55%,var(--b) 90deg,#0000 0),
-    conic-gradient(from 225deg at 45% 50%,var(--l) 90deg,#0000 0);
-  --m: conic-gradient(#000 0 0) content-box,conic-gradient(#000 0 0);
+    conic-gradient(from -45deg at 50% 45%, var(--t) 90deg, #0000 0),
+    conic-gradient(from 45deg at 55% 50%, var(--r) 90deg, #0000 0),
+    conic-gradient(from 135deg at 50% 55%, var(--b) 90deg, #0000 0),
+    conic-gradient(from 225deg at 45% 50%, var(--l) 90deg, #0000 0);
+  --m: conic-gradient(#000 0 0) content-box, conic-gradient(#000 0 0);
   -webkit-mask: var(--m);
-          mask: var(--m);
+  mask: var(--m);
   -webkit-mask-composite: xor;
-          mask-composite: exclude;
-  clip-path: polygon(25% 0,75% 0,100% 25%,100% 75%,75% 100%,25% 100%,0 75%,0 25%);
-  transition:--t .45s,--l .45s,--b .45s,--r .45s;
+  mask-composite: exclude;
+  clip-path: polygon(25% 0, 75% 0, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0 75%, 0 25%);
+  transition: --t .45s, --l .45s, --b .45s, --r .45s;
 }
-.d:after {
+
+/*.d:after {
   margin-top: -20%;
   --t: #0000;
 }

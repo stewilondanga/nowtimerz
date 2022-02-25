@@ -151,12 +151,14 @@ a {
   initial-value: #000;
 }
 
-/*.d {
-  width: 77px; /* size */
-/*  display: inline-grid;
+.d {
+  width: 77px;
+  /* size */
+  display: inline-grid;
   aspect-ratio: .55;
 }
-.d:before,
+
+/*.d:before,
 .d:after {
   content: "";
   padding: 20%;

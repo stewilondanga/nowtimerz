@@ -127,12 +127,13 @@ a {
   initial-value: 0;
 }
 
-/*@property --t{
+@property --t {
   syntax: '<color>';
   inherits: true;
   initial-value: #000;
 }
-@property --r{
+
+/*@property --r{
   syntax: '<color>';
   inherits: true;
   initial-value: #000;

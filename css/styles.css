@@ -331,11 +331,11 @@ a {
   animation-play-state: running;
 }
 
-/*#go:checked ~ .timer {
-  filter:hue-rotate(45deg);
+#go:checked~.timer {
+  filter: hue-rotate(45deg);
 }
 
-
+/*
 
 .containers {
   width: 520px;

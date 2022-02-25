@@ -14,13 +14,13 @@ h2 {
   margin: 0 auto 20px;
 }
 
-/*a {
+a {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
 
-.share__icon {
+/*.share__icon {
   width: 32px;
   height: 32px;
   fill: #fff;

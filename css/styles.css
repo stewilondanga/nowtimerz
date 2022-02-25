@@ -219,8 +219,11 @@ a {
   grid-column: 4
 }
 
-/*.timer .d:nth-child(4) {animation:d9 10s linear infinite}
-@keyframes d9 {
+.timer .d:nth-child(4) {
+  animation: d9 10s linear infinite
+}
+
+/*@keyframes d9 {
   0%,
   9.95%{--n:0}
   10%,
